@@ -1,0 +1,22 @@
+.nav {
+    margin-bottom: 25px;
+    float:left;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1px;
+    padding: 25px 25px 25px 25px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.nav a.active {
+    color: #fff;
+    background: orange;
+}
+.nav a.inactive {
+    color: black;
+    background: grey;
+}
