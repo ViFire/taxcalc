@@ -4,6 +4,8 @@
 }
 
 .nav a {
+    width: 150px;
+    text-align: center;
     text-decoration: none;
     font-weight: bold;
     border-radius: 1px;
@@ -13,10 +15,13 @@
 }
 
 .nav a.active {
+    box-shadow: inset 0px 0px 5px 0.25px #000000;
+    text-align: center;
     color: #fff;
     background: orange;
 }
 .nav a.inactive {
+    box-shadow: inset 0px 0px 5px 0.25px #000000;
     color: black;
     background: grey;
 }
